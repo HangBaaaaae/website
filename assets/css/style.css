@@ -389,6 +389,12 @@ section {
 
 .about .row .col-lg-4 img {width:80%; border-radius:30%;}
 
+@media screen and (min-width: 1200px){
+        .about .row .col-lg-4 img{
+            width: 50%;
+        }
+    }
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
