@@ -15,7 +15,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Pretendard-Regular", sans-serif;
+  font-family: "Pretendard-Regular", sans-serif !important;
   color: #272829;
 }
 
@@ -393,6 +393,16 @@ section {
         }
     }
 
+@media screen and (min-width: 992px) {
+.about .col-lg-6 {
+	margin:0 auto;
+    flex: 0 0 auto;
+    width: 30%;
+}
+}
+
+.about .section-title li {}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -431,6 +441,9 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
+
+.facts .section-title li {margin:0 auto; text-align:center;}
+.facts .container .row {width:100%; margin-top:50px;}
 
 /*--------------------------------------------------------------
 # Akills
